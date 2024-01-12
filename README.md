@@ -38,7 +38,7 @@ GitHub is a cloud-based platform that hosts Git repositories remotely on its ser
 - **git fetch:**
   Fetching is like asking Git to go to the remote repository and see if there are any changes. It retrieves the changes from the remote repository to your local repository but does not automatically merge these changes into your working directory.
 
-- **git pull:**
+- git pull:
   Pull is a combination of fetch and merge. It fetches changes from the remote repository and automatically merges them into your working directory. It brings the changes from the remote repository to your local repository and updates your working files to include those changes.
 
 ## Git Rebase
@@ -49,3 +49,8 @@ Basic command for git rebase:
 ```bash
 git checkout your-feature-branch
 git rebase target-branch
+```
+
+# Git Cherry-pickgit cherry-pick is used to apply a specific commit from one branch to another.
+```bash
+git cherry-pick <commit-hash>
